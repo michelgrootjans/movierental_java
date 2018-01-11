@@ -11,12 +11,12 @@ public class Customer {
         this.name = name;
     }
 
-    public void addRental(Rental arg) {
-        rentals.add(arg);
-    }
-
     public String getName() {
         return name;
+    }
+
+    public void addRental(Rental arg) {
+        rentals.add(arg);
     }
 
     public String statement() {
